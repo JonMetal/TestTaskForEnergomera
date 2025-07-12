@@ -1,0 +1,11 @@
+@TestTaskForEnergomera_HostAddress = http://localhost:5256
+
+GET {{TestTaskForEnergomera_HostAddress}}/
+Accept: application/json
+
+###
+
+GET {{TestTaskForEnergomera_HostAddress}}/
+Accept: application/json
+
+###

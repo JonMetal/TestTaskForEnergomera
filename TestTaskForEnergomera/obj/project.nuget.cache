@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "5hDBW98kC28=",
+  "success": true,
+  "projectFilePath": "C:\\Onyx\\TestTaskForEnergomera\\TestTaskForEnergomera\\TestTaskForEnergomera.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anton\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.13\\microsoft.dotnet.ilcompiler.8.0.13.nupkg.sha512",
+    "C:\\Users\\anton\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.18\\microsoft.net.illink.tasks.8.0.18.nupkg.sha512",
+    "C:\\Users\\anton\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.13\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
