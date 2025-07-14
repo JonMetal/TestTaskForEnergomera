@@ -1,5 +1,6 @@
 ﻿using System.Xml.Linq;
 using TestTaskForEnergomera.Models;
+using TestTaskForEnergomera.Tools;
 
 namespace TestTaskForEnergomera.Kml
 {
@@ -32,11 +33,15 @@ namespace TestTaskForEnergomera.Kml
                     .FirstOrDefault(e => e.Attribute("name")?.Value == "size");
 
                 if (!int.TryParse(fidElement?.Value, out int fid)) continue;
-                if (!double.TryParse(sizeElement?.Value, out double size)) continue;
 
                 XElement? polygonCoordinates = placemark.Descendants(ns + "coordinates").FirstOrDefault();
 
                 IList<GeoPoint> points = ParseCoordinates(polygonCoordinates?.Value ?? "");
+
+                if (!double.TryParse(sizeElement?.Value, out double size))
+                {
+                    size = Area.SizeFromLocations(new Locations() { Polygon = points });
+                }
 
                 fields.Add(new Field
                 {

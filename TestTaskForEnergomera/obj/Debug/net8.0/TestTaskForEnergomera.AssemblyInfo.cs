@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestTaskForEnergomera")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17b297871465036a3f9b87453795a5511cbe3b68")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestTaskForEnergomera")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestTaskForEnergomera")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -26,3 +26,4 @@ C:\Onyx\TestTaskForEnergomera\TestTaskForEnergomera\obj\Debug\net8.0\refint\Test
 C:\Onyx\TestTaskForEnergomera\TestTaskForEnergomera\obj\Debug\net8.0\TestTaskForEnergomera.pdb
 C:\Onyx\TestTaskForEnergomera\TestTaskForEnergomera\obj\Debug\net8.0\TestTaskForEnergomera.genruntimeconfig.cache
 C:\Onyx\TestTaskForEnergomera\TestTaskForEnergomera\obj\Debug\net8.0\ref\TestTaskForEnergomera.dll
+C:\Onyx\TestTaskForEnergomera\TestTaskForEnergomera\obj\Debug\net8.0\TestTaskForEnergomera.sourcelink.json

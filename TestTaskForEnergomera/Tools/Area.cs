@@ -27,7 +27,7 @@ namespace TestTaskForEnergomera.Tools
                 area += (lon2 - lon1) * (Math.Sin(lat1) + Math.Sin(lat2));
             }
 
-            area = Math.Abs(area) * EarthRadius * EarthRadius / 2.0;
+            area = Math.Abs(area) * EarthRadius * EarthRadius / 2.0 / 10000.0;
             return area;
         }
 
